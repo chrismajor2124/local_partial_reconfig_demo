@@ -1,0 +1,27 @@
+ set mysites [get_sites { \
+ SLICE_X0Y0 \
+ SLICE_X0Y1 \
+ SLICE_X0Y2 \
+ SLICE_X0Y3 \
+ SLICE_X0Y4 \
+ SLICE_X0Y5 \
+ SLICE_X1Y0 \
+ SLICE_X1Y1 \
+ SLICE_X1Y2 \
+ SLICE_X1Y3 \
+ SLICE_X1Y4 \
+ SLICE_X1Y5 \
+ SLICE_X2Y0 \
+ SLICE_X2Y1 \
+ SLICE_X2Y2 \
+ SLICE_X2Y3 \
+ SLICE_X2Y4 \
+ SLICE_X2Y5 \
+ SLICE_X3Y0 \
+ SLICE_X3Y1 \
+ SLICE_X3Y2 \
+ SLICE_X3Y3 \
+ SLICE_X3Y4 \
+ SLICE_X3Y5 \
+}] 
+select_objects -add $mysites 

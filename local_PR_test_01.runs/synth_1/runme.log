@@ -1,0 +1,485 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+WARNING: [filemgmt 56-12] File 'D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/Debug/PR_Test_01.elf' cannot be added to the project because it already exists in the project, skipping this file
+INFO: [Project 1-1697] Successfully associated ELF file D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/Debug/PR_Test_01.elf to BD mb_pr_01 and cell microblaze_0.
+INFO: [Project 1-1697] Successfully associated ELF file D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/Debug/PR_Test_01.elf to BD mb_pr_01 and cell microblaze_0.
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 39216
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1171.758 ; gain = 58.176
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/top.vhd:55]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'CLK_01' of component 'clk_wiz_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/top.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/clk_wiz_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'reconfiguration_handler' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:29' bound to instance 'RECON_01' of component 'reconfiguration_handler' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/top.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'reconfiguration_handler' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:56]
+INFO: [Synth 8-3491] module 'mb_pr_01_wrapper' declared at 'D:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/hdl/mb_pr_01_wrapper.vhd:14' bound to instance 'MB_01' of component 'mb_pr_01_wrapper' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_wrapper' [D:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/hdl/mb_pr_01_wrapper.vhd:38]
+INFO: [Synth 8-3491] module 'mb_pr_01' declared at 'd:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2327' bound to instance 'mb_pr_01_i' of component 'mb_pr_01' [D:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/hdl/mb_pr_01_wrapper.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2361]
+INFO: [Synth 8-3491] module 'mb_pr_01_axi_gpio_0_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_gpio_0_0_stub.vhdl:5' bound to instance 'axi_gpio_0' of component 'mb_pr_01_axi_gpio_0_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2828]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_axi_gpio_0_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_gpio_0_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'mb_pr_01_axi_gpio_1_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_gpio_1_0_stub.vhdl:5' bound to instance 'axi_gpio_1' of component 'mb_pr_01_axi_gpio_1_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2852]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_axi_gpio_1_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_gpio_1_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'mb_pr_01_axi_hwicap_0_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_hwicap_0_0_stub.vhdl:5' bound to instance 'axi_hwicap_0' of component 'mb_pr_01_axi_hwicap_0_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2876]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_axi_hwicap_0_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_hwicap_0_0_stub.vhdl:40]
+INFO: [Synth 8-3491] module 'mb_pr_01_axi_quad_spi_0_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_quad_spi_0_0_stub.vhdl:5' bound to instance 'axi_quad_spi_0' of component 'mb_pr_01_axi_quad_spi_0_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2908]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_axi_quad_spi_0_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_quad_spi_0_0_stub.vhdl:45]
+INFO: [Synth 8-3491] module 'mb_pr_01_axi_uartlite_0_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_uartlite_0_0_stub.vhdl:5' bound to instance 'axi_uartlite_0' of component 'mb_pr_01_axi_uartlite_0_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2945]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_axi_uartlite_0_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_axi_uartlite_0_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'mb_pr_01_mdm_0_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_mdm_0_0_stub.vhdl:5' bound to instance 'mdm_0' of component 'mb_pr_01_mdm_0_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2970]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_mdm_0_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_mdm_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'mb_pr_01_microblaze_0_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_microblaze_0_0_stub.vhdl:5' bound to instance 'microblaze_0' of component 'mb_pr_01_microblaze_0_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2983]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_microblaze_0_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_microblaze_0_0_stub.vhdl:63]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_microblaze_0_axi_periph_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:1443]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_XJHIXX' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_XJHIXX' (1#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_16364LG' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:158]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_16364LG' (2#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_YQQH0M' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_YQQH0M' (3#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_14M9LQF' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:360]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_14M9LQF' (4#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:360]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_VZLMW3' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:461]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_VZLMW3' (5#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:461]
+INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_17B7OW2' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:566]
+INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_17B7OW2' (6#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:566]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_10159PJ' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:1235]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_10159PJ' (7#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:1235]
+INFO: [Synth 8-3491] module 'mb_pr_01_xbar_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'mb_pr_01_xbar_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2159]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_xbar_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_xbar_0_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'mb_pr_01_microblaze_0_axi_periph_0' (8#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:1443]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_1CFXPWH' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:656]
+INFO: [Synth 8-3491] module 'mb_pr_01_dlmb_bram_if_cntlr_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_dlmb_bram_if_cntlr_0_stub.vhdl:5' bound to instance 'dlmb_bram_if_cntlr' of component 'mb_pr_01_dlmb_bram_if_cntlr_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:870]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_dlmb_bram_if_cntlr_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_dlmb_bram_if_cntlr_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'mb_pr_01_dlmb_v10_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_dlmb_v10_0_stub.vhdl:5' bound to instance 'dlmb_v10' of component 'mb_pr_01_dlmb_v10_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:924]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_dlmb_v10_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_dlmb_v10_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'mb_pr_01_ilmb_bram_if_cntlr_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_ilmb_bram_if_cntlr_0_stub.vhdl:5' bound to instance 'ilmb_bram_if_cntlr' of component 'mb_pr_01_ilmb_bram_if_cntlr_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:952]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_ilmb_bram_if_cntlr_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_ilmb_bram_if_cntlr_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'mb_pr_01_ilmb_v10_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_ilmb_v10_0_stub.vhdl:5' bound to instance 'ilmb_v10' of component 'mb_pr_01_ilmb_v10_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:1006]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_ilmb_v10_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_ilmb_v10_0_stub.vhdl:36]
+INFO: [Synth 8-3491] module 'mb_pr_01_lmb_bram_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_lmb_bram_0_stub.vhdl:5' bound to instance 'lmb_bram' of component 'mb_pr_01_lmb_bram_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:1034]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_lmb_bram_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_lmb_bram_0_stub.vhdl:27]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_1CFXPWH' (9#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:656]
+INFO: [Synth 8-3491] module 'mb_pr_01_rst_clk_wiz_1_100M_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_rst_clk_wiz_1_100M_0_stub.vhdl:5' bound to instance 'rst_clk_wiz_1_100M' of component 'mb_pr_01_rst_clk_wiz_1_100M_0' [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:3204]
+INFO: [Synth 8-638] synthesizing module 'mb_pr_01_rst_clk_wiz_1_100M_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/mb_pr_01_rst_clk_wiz_1_100M_0_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'mb_pr_01' (10#1) [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/synth/mb_pr_01.vhd:2361]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'spi_rtl_0_io0_iobuf' of component 'IOBUF' [D:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/hdl/mb_pr_01_wrapper.vhd:115]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (11#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'spi_rtl_0_io1_iobuf' of component 'IOBUF' [D:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/hdl/mb_pr_01_wrapper.vhd:122]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'spi_rtl_0_ss_iobuf_0' of component 'IOBUF' [D:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/hdl/mb_pr_01_wrapper.vhd:129]
+INFO: [Synth 8-256] done synthesizing module 'mb_pr_01_wrapper' (12#1) [D:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/hdl/mb_pr_01_wrapper.vhd:38]
+INFO: [Synth 8-3491] module 'arbiter' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/arbiter.vhd:29' bound to instance 'ARB_01' of component 'arbiter' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:276]
+INFO: [Synth 8-638] synthesizing module 'arbiter' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/arbiter.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'arbiter' (13#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/arbiter.vhd:63]
+INFO: [Synth 8-3491] module 'sem_0' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/sem_0_stub.vhdl:5' bound to instance 'SEM_DEVICE_0' of component 'sem_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:303]
+INFO: [Synth 8-638] synthesizing module 'sem_0' [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/realtime/sem_0_stub.vhdl:42]
+INFO: [Synth 8-3491] module 'sem_monitor' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon.vhd:40' bound to instance 'MONITOR_0' of component 'sem_monitor' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:344]
+INFO: [Synth 8-638] synthesizing module 'sem_monitor' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon.vhd:60]
+INFO: [Synth 8-3491] module 'sem_0_sem_mon_fifo' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:128' bound to instance 'TX_FIFO' of component 'sem_0_sem_mon_fifo' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'sem_0_sem_mon_fifo' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:144]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_srl_0' to cell 'SRLC32E' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:178]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_srl_1' to cell 'SRLC32E' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:188]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_srl_2' to cell 'SRLC32E' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:198]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_srl_3' to cell 'SRLC32E' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:208]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_srl_4' to cell 'SRLC32E' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:218]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_srl_5' to cell 'SRLC32E' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:228]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_srl_6' to cell 'SRLC32E' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:238]
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'data_srl_7' to cell 'SRLC32E' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:248]
+INFO: [Synth 8-256] done synthesizing module 'sem_0_sem_mon_fifo' (14#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:144]
+INFO: [Synth 8-3491] module 'sem_0_sem_mon_piso' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_piso.vhd:126' bound to instance 'TX_PISO' of component 'sem_0_sem_mon_piso' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'sem_0_sem_mon_piso' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_piso.vhd:141]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'pipeline_serial' to cell 'FD' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_piso.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'sem_0_sem_mon_piso' (15#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_piso.vhd:141]
+INFO: [Synth 8-3491] module 'sem_0_sem_mon_sipo' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_sipo.vhd:121' bound to instance 'RX_SIPO' of component 'sem_0_sem_mon_sipo' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'sem_0_sem_mon_sipo' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_sipo.vhd:135]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sync_reg_a' to cell 'FD' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_sipo.vhd:181]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sync_reg_b' to cell 'FD' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_sipo.vhd:183]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sync_reg_c' to cell 'FD' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_sipo.vhd:185]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sync_reg_d' to cell 'FD' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_sipo.vhd:187]
+INFO: [Synth 8-256] done synthesizing module 'sem_0_sem_mon_sipo' (16#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_sipo.vhd:135]
+INFO: [Synth 8-3491] module 'sem_0_sem_mon_fifo' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon_fifo.vhd:128' bound to instance 'RX_FIFO' of component 'sem_0_sem_mon_fifo' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon.vhd:183]
+INFO: [Synth 8-256] done synthesizing module 'sem_monitor' (17#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0_sem_mon.vhd:60]
+	Parameter FARSRC bound to: EFAR - type: string 
+	Parameter FRAME_RBT_IN_FILENAME bound to: NONE - type: string 
+INFO: [Synth 8-113] binding component instance 'FRAME_ECC_0' to cell 'FRAME_ECCE2' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:365]
+	Parameter DEVICE_ID bound to: 32'b11111111111111111111111111111111 
+	Parameter ICAP_WIDTH bound to: X32 - type: string 
+	Parameter SIM_CFG_FILE_NAME bound to: NONE - type: string 
+INFO: [Synth 8-113] binding component instance 'ICAP_0' to cell 'ICAPE2' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:383]
+INFO: [Synth 8-256] done synthesizing module 'reconfiguration_handler' (18#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/reconfiguration.vhd:56]
+	Parameter g_count_max bound to: 65536 - type: integer 
+	Parameter g_count_size bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/general_counter.vhd:26' bound to instance 'CNTR' of component 'counter' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/top.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'counter' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/general_counter.vhd:45]
+	Parameter g_count_max bound to: 65536 - type: integer 
+	Parameter g_count_size bound to: 16 - type: integer 
+WARNING: [Synth 8-614] signal 'i_reset_n' is read in the process but is not in the sensitivity list [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/general_counter.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'counter' (19#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/general_counter.vhd:45]
+INFO: [Synth 8-3491] module 'basys_7seg' declared at 'D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/basys_7seg_display.vhd:25' bound to instance 'B_7SEG' of component 'basys_7seg' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/top.vhd:211]
+INFO: [Synth 8-638] synthesizing module 'basys_7seg' [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/basys_7seg_display.vhd:41]
+WARNING: [Synth 8-614] signal 'r_displayed_number' is read in the process but is not in the sensitivity list [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/basys_7seg_display.vhd:110]
+INFO: [Synth 8-256] done synthesizing module 'basys_7seg' (20#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/basys_7seg_display.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top' (21#1) [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/top.vhd:55]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1238.750 ; gain = 125.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1256.617 ; gain = 143.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1256.617 ; gain = 143.035
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 1268.676 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0/sem_0_in_context.xdc] for cell 'RECON_01/SEM_DEVICE_0'
+Finished Parsing XDC File [d:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/sem_0/sem_0_in_context.xdc] for cell 'RECON_01/SEM_DEVICE_0'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_hwicap_0_0/mb_pr_01_axi_hwicap_0_0/mb_pr_01_axi_hwicap_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_hwicap_0'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_hwicap_0_0/mb_pr_01_axi_hwicap_0_0/mb_pr_01_axi_hwicap_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_hwicap_0'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_microblaze_0_0/mb_pr_01_microblaze_0_0/mb_pr_01_microblaze_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_microblaze_0_0/mb_pr_01_microblaze_0_0/mb_pr_01_microblaze_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_uartlite_0_0/mb_pr_01_axi_uartlite_0_0/mb_pr_01_axi_uartlite_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_uartlite_0'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_uartlite_0_0/mb_pr_01_axi_uartlite_0_0/mb_pr_01_axi_uartlite_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_uartlite_0'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_mdm_0_0/mb_pr_01_mdm_0_0/mb_pr_01_mdm_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/mdm_0'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_mdm_0_0/mb_pr_01_mdm_0_0/mb_pr_01_mdm_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/mdm_0'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_dlmb_v10_0/mb_pr_01_dlmb_v10_0/mb_pr_01_ilmb_v10_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_dlmb_v10_0/mb_pr_01_dlmb_v10_0/mb_pr_01_ilmb_v10_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_ilmb_v10_0/mb_pr_01_ilmb_v10_0/mb_pr_01_ilmb_v10_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_ilmb_v10_0/mb_pr_01_ilmb_v10_0/mb_pr_01_ilmb_v10_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_dlmb_bram_if_cntlr_0/mb_pr_01_dlmb_bram_if_cntlr_0/mb_pr_01_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_dlmb_bram_if_cntlr_0/mb_pr_01_dlmb_bram_if_cntlr_0/mb_pr_01_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_ilmb_bram_if_cntlr_0/mb_pr_01_ilmb_bram_if_cntlr_0/mb_pr_01_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_ilmb_bram_if_cntlr_0/mb_pr_01_ilmb_bram_if_cntlr_0/mb_pr_01_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_lmb_bram_0/mb_pr_01_lmb_bram_0/mb_pr_01_lmb_bram_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_lmb_bram_0/mb_pr_01_lmb_bram_0/mb_pr_01_lmb_bram_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_rst_clk_wiz_1_100M_0/mb_pr_01_rst_clk_wiz_1_100M_0/mb_pr_01_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_rst_clk_wiz_1_100M_0/mb_pr_01_rst_clk_wiz_1_100M_0/mb_pr_01_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/rst_clk_wiz_1_100M'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_xbar_0/mb_pr_01_xbar_0/mb_pr_01_xbar_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_xbar_0/mb_pr_01_xbar_0/mb_pr_01_xbar_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_quad_spi_0_0/mb_pr_01_axi_quad_spi_0_0/mb_pr_01_axi_quad_spi_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_quad_spi_0'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_quad_spi_0_0/mb_pr_01_axi_quad_spi_0_0/mb_pr_01_axi_quad_spi_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_quad_spi_0'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_gpio_0_0/mb_pr_01_axi_gpio_0_0/mb_pr_01_axi_gpio_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_gpio_0'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_gpio_0_0/mb_pr_01_axi_gpio_0_0/mb_pr_01_axi_gpio_0_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_gpio_0'
+Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_gpio_1_0/mb_pr_01_axi_gpio_1_0/mb_pr_01_axi_gpio_1_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_gpio_1'
+Finished Parsing XDC File [d:/local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_gpio_1_0/mb_pr_01_axi_gpio_1_0/mb_pr_01_axi_gpio_1_0_in_context.xdc] for cell 'RECON_01/MB_01/mb_pr_01_i/axi_gpio_1'
+Parsing XDC File [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'CLK_01'
+Finished Parsing XDC File [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'CLK_01'
+Parsing XDC File [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/constraints.xdc]
+Finished Parsing XDC File [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1374.930 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  FD => FDRE: 5 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 3 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1374.930 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for i_clk. (constraint file  D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for i_clk. (constraint file  D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/.Xil/Vivado-38528-BZ-ECE-7F8ZR33/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for CNTR. (constraint file  D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/constraints.xdc, line 121).
+Applied set_property HD.RECONFIGURABLE = true for CNTR. (constraint file  D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/constraints.xdc, line 121).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/SEM_DEVICE_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/axi_hwicap_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/microblaze_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/axi_uartlite_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/mdm_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/microblaze_0_axi_periph. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/axi_quad_spi_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for RECON_01/MB_01/mb_pr_01_i/axi_gpio_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for CLK_01. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	              152 Bit    Registers := 1     
+	              151 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   2 Input   16 Bit        Muxes := 1     
+	   3 Input    6 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                        | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top         | RECON_01/MONITOR_0/TX_PISO/hot_delay_reg[15]    | 16     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | RECON_01/MONITOR_0/RX_SIPO/delay_line_reg[149]  | 22     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|top         | RECON_01/MONITOR_0/RX_SIPO/delay_line_reg[127]  | 16     | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|top         | RECON_01/MONITOR_0/RX_SIPO/valid_delay_reg[151] | 152    | 1     | NO           | NO                 | YES               | 0      | 5       | 
++------------+-------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |clk_wiz_0                     |         1|
+|2     |sem_0                         |         1|
+|3     |mb_pr_01_xbar_0               |         1|
+|4     |mb_pr_01_axi_gpio_0_0         |         1|
+|5     |mb_pr_01_axi_gpio_1_0         |         1|
+|6     |mb_pr_01_axi_hwicap_0_0       |         1|
+|7     |mb_pr_01_axi_quad_spi_0_0     |         1|
+|8     |mb_pr_01_axi_uartlite_0_0     |         1|
+|9     |mb_pr_01_mdm_0_0              |         1|
+|10    |mb_pr_01_microblaze_0_0       |         1|
+|11    |mb_pr_01_rst_clk_wiz_1_100M_0 |         1|
+|12    |mb_pr_01_dlmb_bram_if_cntlr_0 |         1|
+|13    |mb_pr_01_dlmb_v10_0           |         1|
+|14    |mb_pr_01_ilmb_bram_if_cntlr_0 |         1|
+|15    |mb_pr_01_ilmb_v10_0           |         1|
+|16    |mb_pr_01_lmb_bram_0           |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------+------+
+|      |Cell                               |Count |
++------+-----------------------------------+------+
+|1     |clk_wiz_0_bbox                     |     1|
+|2     |mb_pr_01_axi_gpio_0_0_bbox         |     1|
+|3     |mb_pr_01_axi_gpio_1_0_bbox         |     1|
+|4     |mb_pr_01_axi_hwicap_0_0_bbox       |     1|
+|5     |mb_pr_01_axi_quad_spi_0_0_bbox     |     1|
+|6     |mb_pr_01_axi_uartlite_0_0_bbox     |     1|
+|7     |mb_pr_01_dlmb_bram_if_cntlr_0_bbox |     1|
+|8     |mb_pr_01_dlmb_v10_0_bbox           |     1|
+|9     |mb_pr_01_ilmb_bram_if_cntlr_0_bbox |     1|
+|10    |mb_pr_01_ilmb_v10_0_bbox           |     1|
+|11    |mb_pr_01_lmb_bram_0_bbox           |     1|
+|12    |mb_pr_01_mdm_0_0_bbox              |     1|
+|13    |mb_pr_01_microblaze_0_0_bbox       |     1|
+|14    |mb_pr_01_rst_clk_wiz_1_100M_0_bbox |     1|
+|15    |mb_pr_01_xbar_0_bbox               |     1|
+|16    |sem_0_bbox                         |     1|
+|17    |CARRY4                             |    20|
+|18    |FRAME_ECCE2                        |     1|
+|19    |ICAPE2                             |     1|
+|20    |LUT1                               |    21|
+|21    |LUT2                               |    71|
+|22    |LUT3                               |    37|
+|23    |LUT4                               |    28|
+|24    |LUT5                               |    15|
+|25    |LUT6                               |    16|
+|26    |SRL16E                             |     9|
+|27    |SRLC32E                            |    22|
+|28    |FD                                 |     5|
+|29    |FDCE                               |    36|
+|30    |FDRE                               |    47|
+|31    |IBUF                               |     3|
+|32    |IOBUF                              |     3|
+|33    |OBUF                               |    23|
+|34    |OBUFT                              |    16|
++------+-----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1374.930 ; gain = 261.348
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 1374.930 ; gain = 143.035
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1374.930 ; gain = 261.348
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1374.930 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1374.930 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  FD => FDRE: 5 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 3 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+123 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1374.930 ; gain = 261.348
+INFO: [Common 17-1381] The checkpoint 'D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 16 13:21:04 2021...

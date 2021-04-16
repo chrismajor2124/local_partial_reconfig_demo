@@ -1,0 +1,835 @@
+!SESSION 2021-04-16 11:22:31.518 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file D:\Xilinx\local_PR_test_01\pr_test_vitis\.metadata\.bak_0.log
+Created Time: 2021-04-16 13:36:21.136
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.137
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa microblaze_0], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.145
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa microblaze_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x40001FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x40010000",
+"high": "0x40011FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_hwicap_0_S_AXI_LITE": {"name": "axi_hwicap_0",
+"base": "0x40200000",
+"high": "0x40201FFF",
+"size": "8192",
+"slaveintf": "S_AXI_LITE",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x40601FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_quad_spi_0_AXI_LITE": {"name": "axi_quad_spi_0",
+"base": "0x44A00000",
+"high": "0x44A01FFF",
+"size": "8192",
+"slaveintf": "AXI_LITE",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0001FFFF",
+"size": "131072",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.147
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.153
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.156
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa mdm_0], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.161
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa mdm_0], Result: [null, {}]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.163
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa mdm_0], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.168
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa mdm_0], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.170
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa mdm_0], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.173
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa mdm_0], Result: [null, microblaze_0]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.176
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.180
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.182
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.186
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:21.190
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.863
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.874
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.879
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.881
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.883
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.885
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.887
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.889
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:23.892
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.894
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.896
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:36:23.898
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:23.900
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.337
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183AB3E62A]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.341
+!MESSAGE XSCT Command: [version -server], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.344
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.346
+!MESSAGE XSCT Command: [version], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.347
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.352
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.359
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183AB3E62A]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.361
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.376
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.382
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.389
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183AB3E62A]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.391
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.406
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.409
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.415
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183AB3E62A]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.417
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.432
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.434
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.441
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183AB3E62A]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.443
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.459
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.461
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.466
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Basys3 210183AB3E62A]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.468
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.484
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.486
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183AB3E62A" && level == 0}], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.502
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183AB3E62A" && level == 0}], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.504
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.507
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.509
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa microblaze_0], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.513
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa microblaze_0], Result: [null, {"Clk": "16000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.528
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.534
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183AB3E62A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.536
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.552
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.558
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183AB3E62A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.590
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183AB3E62A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:24.592
+!MESSAGE XSCT Command: [fpga -file D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/_ide/bitstream/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.858
+!MESSAGE XSCT command with result: [fpga -file D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/_ide/bitstream/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.878
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.905
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.909
+!MESSAGE XSCT Command: [loadhw -hw D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa -regs], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.957
+!MESSAGE XSCT command with result: [loadhw -hw D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa -regs], Result: [null, top_15]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.959
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.963
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.965
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.980
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.982
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.988
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:25.990
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:28.995
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:29.004
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:29.061
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:29.066
+!MESSAGE XSCT Command: [dow D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/Debug/PR_Test_01.elf], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:29.202
+!MESSAGE XSCT command with result: [dow D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/Debug/PR_Test_01.elf], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:29.270
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:29.291
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:29.293
+!MESSAGE XSCT Command: [con], Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:29.547
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-39: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:57.216
+!MESSAGE XSCT Command: [disconnect tcfchan#12], Thread: Thread-439
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:57.221
+!MESSAGE XSCT command with result: [disconnect tcfchan#12], Result: [null, ]. Thread: Thread-439
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:58.912
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:58.919
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#13]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:58.921
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.007
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183AB3E62A]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.008
+!MESSAGE XSCT Command: [version -server], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.011
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.013
+!MESSAGE XSCT Command: [version], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.015
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.017
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.023
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183AB3E62A]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.025
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.041
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.043
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.050
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183AB3E62A]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.052
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.068
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.070
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.076
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183AB3E62A]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.078
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.094
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.096
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.102
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183AB3E62A]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.104
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.120
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.122
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.129
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183AB3E62A]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.131
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.151
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.153
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183AB3E62A" && level == 0}], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.169
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183AB3E62A" && level == 0}], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.171
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.174
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.186
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.193
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183AB3E62A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.195
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.210
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.211
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183AB3E62A-0362d093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.240
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183AB3E62A" && level==0 && jtag_device_ctx=="jsn-Basys3-210183AB3E62A-0362d093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:36:59.242
+!MESSAGE XSCT Command: [fpga -file D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/_ide/bitstream/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.510
+!MESSAGE XSCT command with result: [fpga -file D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/_ide/bitstream/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.530
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.546
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.549
+!MESSAGE XSCT Command: [loadhw -hw D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa -regs], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.561
+!MESSAGE XSCT command with result: [loadhw -hw D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/hw/top.xsa -regs], Result: [null, top_15]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.563
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.566
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.568
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.583
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.585
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.591
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:00.593
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:03.596
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:03.600
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:03.615
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:03.617
+!MESSAGE XSCT Command: [dow D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/Debug/PR_Test_01.elf], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:03.748
+!MESSAGE XSCT command with result: [dow D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Test_01/Debug/PR_Test_01.elf], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:03.789
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:03.825
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:03.827
+!MESSAGE XSCT Command: [con], Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:37:04.090
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-41: Launching Debugger_PR_Test_01-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:39:41.255
+!MESSAGE XSCT Command: [disconnect tcfchan#13], Thread: Thread-483
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-04-16 13:39:41.261
+!MESSAGE XSCT command with result: [disconnect tcfchan#13], Result: [null, ]. Thread: Thread-483
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.884
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.908
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.917
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.919
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.921
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.923
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.925
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.927
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.929
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.931
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:42:59.933
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.852
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.861
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.863
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.866
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.868
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.870
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.872
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.874
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.876
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.878
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-04-16 13:43:08.880
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)

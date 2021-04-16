@@ -1,0 +1,429 @@
+timestamp=[2021-03-16 10:59:38], mode=WORKBENCH_START, duration=0:00:04.978, duration_ms=4978, data={}
+timestamp=[2021-03-16 10:59:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.408, duration_ms=408, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-03-16 10:59:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.719, duration_ms=2719, data={}
+timestamp=[2021-03-16 11:03:06], mode=APP_CREATION, duration=0:00:15.191, duration_ms=15191, data={name=PR_Test_01, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=top, application_type=application}
+timestamp=[2021-03-16 11:13:12], mode=PLATFORM_GENERATION, duration=0:00:11.416, duration_ms=11416, data={name=top}
+timestamp=[2021-03-16 11:13:13], mode=BUILD, duration=0:00:00.651, duration_ms=651, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-16 11:16:23], mode=BUILD, duration=0:00:00.691, duration_ms=691, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-16 11:16:43], mode=BUILD, duration=0:00:00.761, duration_ms=761, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-16 11:18:05], mode=BUILD, duration=0:00:00.717, duration_ms=717, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-16 11:18:58], mode=BUILD, duration=0:00:00.699, duration_ms=699, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-16 11:19:13], mode=BUILD, duration=0:00:00.707, duration_ms=707, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-16 11:19:45], mode=BUILD, duration=0:00:05.069, duration_ms=5069, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-16 12:40:09], mode=PLATFORM_GENERATION, duration=0:00:03.371, duration_ms=3371, data={name=top}
+timestamp=[2021-03-22 15:30:54], mode=WORKBENCH_START, duration=0:00:09.837, duration_ms=9837, data={}
+timestamp=[2021-03-22 15:30:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.631, duration_ms=631, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-03-22 15:30:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2021-03-22 15:31:10], mode=BUILD, duration=0:00:09.040, duration_ms=9040, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-22 15:31:20], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-22 16:03:44], mode=WORKBENCH_START, duration=0:00:09.008, duration_ms=9008, data={}
+timestamp=[2021-03-22 16:03:45], mode=WORKBENCH_UI_INIT, duration=0:00:00.630, duration_ms=630, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-03-22 16:03:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.030, duration_ms=30, data={}
+timestamp=[2021-03-23 14:58:17], mode=WORKBENCH_START, duration=0:00:10.572, duration_ms=10572, data={}
+timestamp=[2021-03-23 14:58:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.587, duration_ms=587, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-03-23 14:58:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.202, duration_ms=202, data={}
+timestamp=[2021-03-23 14:59:11], mode=PLATFORM_GENERATION, duration=0:00:13.734, duration_ms=13734, data={name=top}
+timestamp=[2021-03-23 14:59:12], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-23 15:01:18], mode=BUILD, duration=0:00:00.314, duration_ms=314, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-23 15:06:33], mode=BUILD, duration=0:00:06.051, duration_ms=6051, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-23 15:06:57], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-23 16:18:24], mode=BUILD, duration=0:00:02.715, duration_ms=2715, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 14:48:23], mode=WORKBENCH_START, duration=0:00:09.713, duration_ms=9713, data={}
+timestamp=[2021-03-24 14:48:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.550, duration_ms=550, data={editors_count=9, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-03-24 14:48:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2021-03-24 14:54:40], mode=BUILD, duration=0:00:03.185, duration_ms=3185, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:00:07], mode=BUILD, duration=0:00:02.284, duration_ms=2284, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:01:04], mode=BUILD, duration=0:00:00.360, duration_ms=360, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:01:31], mode=BUILD, duration=0:00:02.280, duration_ms=2280, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:09:42], mode=BUILD, duration=0:00:02.667, duration_ms=2667, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:12:49], mode=BUILD, duration=0:00:02.255, duration_ms=2255, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:25:24], mode=BUILD, duration=0:00:02.260, duration_ms=2260, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:30:16], mode=BUILD, duration=0:00:02.256, duration_ms=2256, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:35:30], mode=BUILD, duration=0:00:02.663, duration_ms=2663, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 15:54:09], mode=BUILD, duration=0:00:02.757, duration_ms=2757, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 16:02:52], mode=BUILD, duration=0:00:01.576, duration_ms=1576, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 16:03:09], mode=BUILD, duration=0:00:02.195, duration_ms=2195, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 16:06:12], mode=BUILD, duration=0:00:02.255, duration_ms=2255, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 16:06:47], mode=BUILD, duration=0:00:02.199, duration_ms=2199, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-24 16:07:09], mode=BUILD, duration=0:00:00.350, duration_ms=350, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-25 10:21:44], mode=WORKBENCH_START, duration=0:00:09.732, duration_ms=9732, data={}
+timestamp=[2021-03-25 10:21:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.599, duration_ms=599, data={editors_count=9, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-03-25 10:21:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.063, duration_ms=63, data={}
+timestamp=[2021-03-25 16:15:27], mode=BUILD, duration=0:00:01.431, duration_ms=1431, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-25 16:21:03], mode=BUILD, duration=0:00:00.717, duration_ms=717, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-25 16:24:06], mode=BUILD, duration=0:00:00.764, duration_ms=764, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-25 16:27:31], mode=BUILD, duration=0:00:00.785, duration_ms=785, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-25 16:29:46], mode=BUILD, duration=0:00:00.784, duration_ms=784, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-25 16:30:42], mode=BUILD, duration=0:00:02.502, duration_ms=2502, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-25 16:31:38], mode=BUILD, duration=0:00:02.261, duration_ms=2261, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-29 15:01:30], mode=WORKBENCH_START, duration=0:00:10.846, duration_ms=10846, data={}
+timestamp=[2021-03-29 15:01:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.584, duration_ms=584, data={editors_count=9, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-03-29 15:01:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.049, duration_ms=49, data={}
+timestamp=[2021-03-29 15:15:43], mode=PLATFORM_GENERATION, duration=0:07:03.699, duration_ms=423699, data={name=top}
+timestamp=[2021-03-29 15:15:47], mode=BUILD, duration=0:00:03.629, duration_ms=3629, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-29 15:15:53], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-03-30 10:22:45], mode=WORKBENCH_START, duration=0:00:09.280, duration_ms=9280, data={}
+timestamp=[2021-03-30 10:22:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.627, duration_ms=627, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-03-30 10:22:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2021-03-30 10:38:10], mode=BUILD, duration=0:00:03.397, duration_ms=3397, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-30 10:39:23], mode=BUILD, duration=0:00:04.805, duration_ms=4805, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-30 10:42:25], mode=BUILD, duration=0:00:02.240, duration_ms=2240, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-30 16:25:26], mode=BUILD, duration=0:00:02.994, duration_ms=2994, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-30 16:27:45], mode=BUILD, duration=0:00:00.379, duration_ms=379, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 15:22:52], mode=WORKBENCH_START, duration=0:00:08.872, duration_ms=8872, data={}
+timestamp=[2021-03-31 15:22:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.607, duration_ms=607, data={editors_count=5, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-03-31 15:22:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.051, duration_ms=51, data={}
+timestamp=[2021-03-31 15:26:33], mode=BUILD, duration=0:00:04.067, duration_ms=4067, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 15:27:16], mode=BUILD, duration=0:00:02.240, duration_ms=2240, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 15:27:36], mode=BUILD, duration=0:00:02.282, duration_ms=2282, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 15:28:04], mode=BUILD, duration=0:00:02.299, duration_ms=2299, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 15:28:47], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 15:29:41], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 15:44:30], mode=PLATFORM_GENERATION, duration=0:00:05.133, duration_ms=5133, data={name=top}
+timestamp=[2021-03-31 16:01:00], mode=PLATFORM_GENERATION, duration=0:00:03.469, duration_ms=3469, data={name=top}
+timestamp=[2021-03-31 16:01:01], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 16:02:19], mode=BUILD, duration=0:00:00.374, duration_ms=374, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-03-31 16:26:32], mode=PLATFORM_GENERATION, duration=0:00:03.484, duration_ms=3484, data={name=top}
+timestamp=[2021-03-31 16:56:09], mode=PLATFORM_GENERATION, duration=0:00:03.492, duration_ms=3492, data={name=top}
+timestamp=[2021-03-31 16:56:10], mode=BUILD, duration=0:00:00.375, duration_ms=375, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 10:34:34], mode=WORKBENCH_START, duration=0:00:09.759, duration_ms=9759, data={}
+timestamp=[2021-04-01 10:34:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.589, duration_ms=589, data={editors_count=7, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-01 10:34:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.054, duration_ms=54, data={}
+timestamp=[2021-04-01 11:51:31], mode=BUILD, duration=0:00:01.518, duration_ms=1518, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 11:52:09], mode=BUILD, duration=0:00:00.795, duration_ms=795, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 11:55:42], mode=BUILD, duration=0:00:02.617, duration_ms=2617, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 12:01:24], mode=BUILD, duration=0:00:02.385, duration_ms=2385, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 12:35:11], mode=BUILD, duration=0:00:02.200, duration_ms=2200, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 12:35:37], mode=BUILD, duration=0:00:02.333, duration_ms=2333, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 12:42:41], mode=BUILD, duration=0:00:00.437, duration_ms=437, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 12:55:16], mode=BUILD, duration=0:00:00.396, duration_ms=396, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 13:00:16], mode=BUILD, duration=0:00:00.400, duration_ms=400, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 13:05:36], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 15:52:13], mode=BUILD, duration=0:00:02.968, duration_ms=2968, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 16:04:22], mode=BUILD, duration=0:00:02.885, duration_ms=2885, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 16:10:04], mode=BUILD, duration=0:00:02.374, duration_ms=2374, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 16:29:40], mode=BUILD, duration=0:00:00.446, duration_ms=446, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-01 16:43:13], mode=PLATFORM_GENERATION, duration=0:00:05.344, duration_ms=5344, data={name=top}
+timestamp=[2021-04-05 09:39:47], mode=WORKBENCH_START, duration=0:00:09.423, duration_ms=9423, data={}
+timestamp=[2021-04-05 09:39:48], mode=WORKBENCH_UI_INIT, duration=0:00:00.585, duration_ms=585, data={editors_count=6, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-05 09:39:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.049, duration_ms=49, data={}
+timestamp=[2021-04-05 09:43:45], mode=BUILD, duration=0:00:01.810, duration_ms=1810, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 09:44:21], mode=BUILD, duration=0:00:02.802, duration_ms=2802, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 09:51:30], mode=BUILD, duration=0:00:02.959, duration_ms=2959, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 10:02:14], mode=BUILD, duration=0:00:02.867, duration_ms=2867, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 10:34:23], mode=PLATFORM_GENERATION, duration=0:00:05.310, duration_ms=5310, data={name=top}
+timestamp=[2021-04-05 10:38:49], mode=PLATFORM_GENERATION, duration=0:00:06.068, duration_ms=6068, data={name=top}
+timestamp=[2021-04-05 10:38:49], mode=BUILD, duration=0:00:00.486, duration_ms=486, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 10:38:50], mode=BUILD, duration=0:00:00.467, duration_ms=467, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 10:38:56], mode=PLATFORM_GENERATION, duration=0:00:03.883, duration_ms=3883, data={name=top}
+timestamp=[2021-04-05 10:39:31], mode=PLATFORM_GENERATION, duration=0:00:03.986, duration_ms=3986, data={name=top}
+timestamp=[2021-04-05 10:39:31], mode=BUILD, duration=0:00:00.433, duration_ms=433, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 10:39:32], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 10:39:47], mode=PLATFORM_GENERATION, duration=0:00:11.692, duration_ms=11692, data={name=top}
+timestamp=[2021-04-05 10:39:50], mode=BUILD, duration=0:00:03.176, duration_ms=3176, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 10:39:51], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 10:52:55], mode=BUILD, duration=0:00:02.861, duration_ms=2861, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 10:57:12], mode=BUILD, duration=0:00:02.451, duration_ms=2451, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 10:58:55], mode=BUILD, duration=0:00:02.450, duration_ms=2450, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 11:40:14], mode=BUILD, duration=0:00:01.260, duration_ms=1260, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 11:40:30], mode=BUILD, duration=0:00:00.790, duration_ms=790, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 11:40:53], mode=BUILD, duration=0:00:00.786, duration_ms=786, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 11:42:28], mode=BUILD, duration=0:00:00.848, duration_ms=848, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 11:43:09], mode=PLATFORM_GENERATION, duration=0:00:05.447, duration_ms=5447, data={name=top}
+timestamp=[2021-04-05 11:43:09], mode=BUILD, duration=0:00:00.483, duration_ms=483, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 11:43:10], mode=BUILD, duration=0:00:00.384, duration_ms=384, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 11:46:29], mode=PLATFORM_GENERATION, duration=0:00:04.177, duration_ms=4177, data={name=top}
+timestamp=[2021-04-05 11:46:29], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 11:46:30], mode=BUILD, duration=0:00:00.399, duration_ms=399, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 11:47:37], mode=PLATFORM_GENERATION, duration=0:00:11.048, duration_ms=11048, data={name=top}
+timestamp=[2021-04-05 11:49:13], mode=PLATFORM_GENERATION, duration=0:00:03.557, duration_ms=3557, data={name=top}
+timestamp=[2021-04-05 11:53:09], mode=PLATFORM_GENERATION, duration=0:00:05.288, duration_ms=5288, data={name=top}
+timestamp=[2021-04-05 11:53:21], mode=PLATFORM_GENERATION, duration=0:00:04.169, duration_ms=4169, data={name=top}
+timestamp=[2021-04-05 11:53:21], mode=BUILD, duration=0:00:00.419, duration_ms=419, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 11:53:21], mode=BUILD, duration=0:00:00.386, duration_ms=386, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-05 11:53:36], mode=PLATFORM_GENERATION, duration=0:00:11.154, duration_ms=11154, data={name=top}
+timestamp=[2021-04-05 11:53:39], mode=BUILD, duration=0:00:02.989, duration_ms=2989, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 11:53:41], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 11:56:33], mode=BUILD, duration=0:00:02.279, duration_ms=2279, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 11:58:30], mode=BUILD, duration=0:00:02.444, duration_ms=2444, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:00:56], mode=BUILD, duration=0:00:02.386, duration_ms=2386, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:02:06], mode=BUILD, duration=0:00:00.396, duration_ms=396, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:04:04], mode=BUILD, duration=0:00:02.385, duration_ms=2385, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:05:15], mode=BUILD, duration=0:00:00.790, duration_ms=790, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:05:40], mode=BUILD, duration=0:00:02.440, duration_ms=2440, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:07:24], mode=BUILD, duration=0:00:02.378, duration_ms=2378, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:33:16], mode=BUILD, duration=0:00:03.014, duration_ms=3014, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:34:25], mode=BUILD, duration=0:00:00.386, duration_ms=386, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:35:56], mode=BUILD, duration=0:00:02.386, duration_ms=2386, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:38:41], mode=BUILD, duration=0:00:02.392, duration_ms=2392, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:41:11], mode=BUILD, duration=0:00:02.448, duration_ms=2448, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:41:30], mode=BUILD, duration=0:00:00.386, duration_ms=386, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:50:35], mode=BUILD, duration=0:00:01.214, duration_ms=1214, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:51:01], mode=BUILD, duration=0:00:02.544, duration_ms=2544, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:55:43], mode=BUILD, duration=0:00:02.437, duration_ms=2437, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:55:52], mode=BUILD, duration=0:00:00.385, duration_ms=385, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:57:35], mode=BUILD, duration=0:00:02.410, duration_ms=2410, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:57:53], mode=BUILD, duration=0:00:02.388, duration_ms=2388, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 12:59:17], mode=BUILD, duration=0:00:02.510, duration_ms=2510, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 13:00:00], mode=BUILD, duration=0:00:02.493, duration_ms=2493, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 14:39:06], mode=BUILD, duration=0:00:01.267, duration_ms=1267, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 14:39:25], mode=BUILD, duration=0:00:02.636, duration_ms=2636, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 14:43:59], mode=BUILD, duration=0:00:02.426, duration_ms=2426, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 14:49:45], mode=BUILD, duration=0:00:02.493, duration_ms=2493, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 14:51:46], mode=BUILD, duration=0:00:02.516, duration_ms=2516, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 14:56:06], mode=BUILD, duration=0:00:02.549, duration_ms=2549, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 14:56:18], mode=BUILD, duration=0:00:00.390, duration_ms=390, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 14:59:15], mode=BUILD, duration=0:00:02.438, duration_ms=2438, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 15:03:52], mode=BUILD, duration=0:00:02.438, duration_ms=2438, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 15:03:59], mode=BUILD, duration=0:00:02.494, duration_ms=2494, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 15:22:15], mode=PLATFORM_GENERATION, duration=0:00:05.850, duration_ms=5850, data={name=top}
+timestamp=[2021-04-05 15:22:42], mode=PLATFORM_GENERATION, duration=0:00:12.296, duration_ms=12296, data={name=top}
+timestamp=[2021-04-05 15:22:43], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 15:30:26], mode=BUILD, duration=0:00:03.633, duration_ms=3633, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 15:30:49], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 15:36:58], mode=BUILD, duration=0:00:02.419, duration_ms=2419, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 15:37:25], mode=BUILD, duration=0:00:00.386, duration_ms=386, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 15:54:41], mode=PLATFORM_GENERATION, duration=0:00:05.897, duration_ms=5897, data={name=top}
+timestamp=[2021-04-05 15:56:41], mode=PLATFORM_GENERATION, duration=0:00:11.635, duration_ms=11635, data={name=top}
+timestamp=[2021-04-05 15:56:42], mode=BUILD, duration=0:00:00.301, duration_ms=301, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:00:02], mode=BUILD, duration=0:00:02.474, duration_ms=2474, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:14:27], mode=PLATFORM_GENERATION, duration=0:00:03.624, duration_ms=3624, data={name=top}
+timestamp=[2021-04-05 16:16:45], mode=BUILD, duration=0:00:02.985, duration_ms=2985, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:16:56], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:29:13], mode=BUILD, duration=0:00:03.059, duration_ms=3059, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:29:32], mode=BUILD, duration=0:00:00.417, duration_ms=417, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:32:42], mode=BUILD, duration=0:00:02.572, duration_ms=2572, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:33:30], mode=BUILD, duration=0:00:02.477, duration_ms=2477, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:35:45], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:35:51], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:41:32], mode=BUILD, duration=0:00:03.743, duration_ms=3743, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:42:01], mode=BUILD, duration=0:00:00.563, duration_ms=563, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:45:52], mode=BUILD, duration=0:00:02.774, duration_ms=2774, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:46:19], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:52:52], mode=BUILD, duration=0:00:02.932, duration_ms=2932, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 16:53:14], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 17:01:58], mode=BUILD, duration=0:00:02.833, duration_ms=2833, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 17:04:06], mode=BUILD, duration=0:00:02.471, duration_ms=2471, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 17:04:28], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-05 17:11:16], mode=PLATFORM_GENERATION, duration=0:00:03.860, duration_ms=3860, data={name=top}
+timestamp=[2021-04-05 17:11:16], mode=BUILD, duration=0:00:00.419, duration_ms=419, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 09:51:36], mode=WORKBENCH_START, duration=0:00:10.198, duration_ms=10198, data={}
+timestamp=[2021-04-06 09:51:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.605, duration_ms=605, data={editors_count=6, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-06 09:51:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.161, duration_ms=161, data={}
+timestamp=[2021-04-06 10:59:09], mode=BUILD, duration=0:00:04.284, duration_ms=4284, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 11:49:11], mode=PLATFORM_GENERATION, duration=0:00:05.277, duration_ms=5277, data={name=top}
+timestamp=[2021-04-06 11:50:03], mode=BUILD, duration=0:00:03.185, duration_ms=3185, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 12:54:36], mode=PLATFORM_GENERATION, duration=0:00:05.866, duration_ms=5866, data={name=top}
+timestamp=[2021-04-06 12:55:06], mode=PLATFORM_GENERATION, duration=0:00:14.490, duration_ms=14490, data={name=top}
+timestamp=[2021-04-06 12:55:07], mode=BUILD, duration=0:00:00.375, duration_ms=375, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 12:55:09], mode=BUILD, duration=0:00:00.499, duration_ms=499, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 14:40:52], mode=PLATFORM_GENERATION, duration=0:00:05.483, duration_ms=5483, data={name=top}
+timestamp=[2021-04-06 14:41:13], mode=PLATFORM_GENERATION, duration=0:00:12.303, duration_ms=12303, data={name=top}
+timestamp=[2021-04-06 14:43:59], mode=BUILD, duration=0:00:02.245, duration_ms=2245, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 14:44:34], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 14:53:42], mode=PLATFORM_GENERATION, duration=0:00:05.573, duration_ms=5573, data={name=top}
+timestamp=[2021-04-06 14:53:54], mode=PLATFORM_GENERATION, duration=0:00:11.960, duration_ms=11960, data={name=top}
+timestamp=[2021-04-06 14:53:54], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 14:53:55], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 15:10:48], mode=PLATFORM_GENERATION, duration=0:00:03.612, duration_ms=3612, data={name=top}
+timestamp=[2021-04-06 15:17:42], mode=PLATFORM_GENERATION, duration=0:00:05.543, duration_ms=5543, data={name=top}
+timestamp=[2021-04-06 15:17:42], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-06 15:17:43], mode=BUILD, duration=0:00:00.483, duration_ms=483, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-06 15:19:00], mode=PLATFORM_GENERATION, duration=0:00:12.619, duration_ms=12619, data={name=top}
+timestamp=[2021-04-06 15:19:03], mode=BUILD, duration=0:00:02.929, duration_ms=2929, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 15:29:00], mode=PLATFORM_GENERATION, duration=0:00:05.539, duration_ms=5539, data={name=top}
+timestamp=[2021-04-06 15:29:17], mode=PLATFORM_GENERATION, duration=0:00:11.954, duration_ms=11954, data={name=top}
+timestamp=[2021-04-06 15:29:17], mode=BUILD, duration=0:00:00.299, duration_ms=299, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-06 15:41:18], mode=BUILD, duration=0:00:03.048, duration_ms=3048, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-08 16:21:37], mode=WORKBENCH_START, duration=0:00:10.290, duration_ms=10290, data={}
+timestamp=[2021-04-08 16:21:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.587, duration_ms=587, data={editors_count=6, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-08 16:21:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.165, duration_ms=165, data={}
+timestamp=[2021-04-08 16:22:08], mode=PLATFORM_GENERATION, duration=0:00:05.518, duration_ms=5518, data={name=top}
+timestamp=[2021-04-08 16:22:09], mode=BUILD, duration=0:00:00.752, duration_ms=752, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-08 16:38:33], mode=PLATFORM_GENERATION, duration=0:00:03.385, duration_ms=3385, data={name=top}
+timestamp=[2021-04-09 15:35:05], mode=WORKBENCH_START, duration=0:00:09.724, duration_ms=9724, data={}
+timestamp=[2021-04-09 15:35:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.549, duration_ms=549, data={editors_count=6, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-09 15:35:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.050, duration_ms=50, data={}
+timestamp=[2021-04-09 15:38:30], mode=PLATFORM_GENERATION, duration=0:00:20.232, duration_ms=20232, data={name=top}
+timestamp=[2021-04-09 15:38:32], mode=BUILD, duration=0:00:00.670, duration_ms=670, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 15:38:38], mode=PLATFORM_GENERATION, duration=0:00:05.368, duration_ms=5368, data={name=top}
+timestamp=[2021-04-09 15:39:03], mode=PLATFORM_GENERATION, duration=0:00:10.441, duration_ms=10441, data={name=top}
+timestamp=[2021-04-09 15:39:04], mode=BUILD, duration=0:00:00.669, duration_ms=669, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 15:39:05], mode=BUILD, duration=0:00:00.423, duration_ms=423, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 15:41:41], mode=BUILD, duration=0:00:04.271, duration_ms=4271, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 15:48:47], mode=BUILD, duration=0:00:02.335, duration_ms=2335, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 15:48:56], mode=BUILD, duration=0:00:00.377, duration_ms=377, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 16:03:57], mode=PLATFORM_GENERATION, duration=0:00:03.698, duration_ms=3698, data={name=top}
+timestamp=[2021-04-09 16:03:58], mode=BUILD, duration=0:00:00.359, duration_ms=359, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 16:20:10], mode=BUILD, duration=0:00:01.130, duration_ms=1130, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 16:20:24], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 16:23:42], mode=BUILD, duration=0:00:02.380, duration_ms=2380, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 16:31:48], mode=PLATFORM_GENERATION, duration=0:00:03.734, duration_ms=3734, data={name=top}
+timestamp=[2021-04-09 16:31:48], mode=BUILD, duration=0:00:00.406, duration_ms=406, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 16:35:28], mode=BUILD, duration=0:00:02.409, duration_ms=2409, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 16:36:25], mode=BUILD, duration=0:00:00.359, duration_ms=359, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 17:06:51], mode=BUILD, duration=0:00:03.292, duration_ms=3292, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 17:07:29], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 17:14:11], mode=BUILD, duration=0:00:02.722, duration_ms=2722, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 17:15:06], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 17:23:07], mode=BUILD, duration=0:00:02.714, duration_ms=2714, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 17:23:13], mode=BUILD, duration=0:00:00.361, duration_ms=361, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-09 17:24:29], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-12 11:18:23], mode=WORKBENCH_START, duration=0:00:10.185, duration_ms=10185, data={}
+timestamp=[2021-04-12 11:18:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.563, duration_ms=563, data={editors_count=4, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-12 11:18:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.188, duration_ms=188, data={}
+timestamp=[2021-04-12 11:28:24], mode=BUILD, duration=0:00:07.593, duration_ms=7593, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-12 11:43:24], mode=BUILD, duration=0:00:00.394, duration_ms=394, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-12 14:40:23], mode=BUILD, duration=0:00:02.784, duration_ms=2784, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-12 16:27:27], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 11:39:48], mode=WORKBENCH_START, duration=0:00:09.331, duration_ms=9331, data={}
+timestamp=[2021-04-13 11:39:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.547, duration_ms=547, data={editors_count=4, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-13 11:39:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.068, duration_ms=68, data={}
+timestamp=[2021-04-13 11:49:58], mode=BUILD, duration=0:00:00.499, duration_ms=499, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 12:42:10], mode=BUILD, duration=0:00:00.400, duration_ms=400, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 12:49:02], mode=PLATFORM_GENERATION, duration=0:00:07.498, duration_ms=7498, data={name=top}
+timestamp=[2021-04-13 12:49:23], mode=PLATFORM_GENERATION, duration=0:00:15.896, duration_ms=15896, data={name=top}
+timestamp=[2021-04-13 12:49:26], mode=BUILD, duration=0:00:02.764, duration_ms=2764, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 12:49:27], mode=BUILD, duration=0:00:00.370, duration_ms=370, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 12:53:48], mode=BUILD, duration=0:00:00.359, duration_ms=359, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 12:53:49], mode=BUILD, duration=0:00:00.311, duration_ms=311, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 12:55:47], mode=BUILD, duration=0:00:00.359, duration_ms=359, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 13:21:06], mode=PLATFORM_GENERATION, duration=0:00:05.481, duration_ms=5481, data={name=top}
+timestamp=[2021-04-13 13:21:24], mode=PLATFORM_GENERATION, duration=0:00:13.871, duration_ms=13871, data={name=top}
+timestamp=[2021-04-13 13:30:42], mode=BUILD, duration=0:00:03.360, duration_ms=3360, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 13:35:55], mode=BUILD, duration=0:00:02.204, duration_ms=2204, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 13:37:35], mode=BUILD, duration=0:00:00.375, duration_ms=375, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 13:37:47], mode=BUILD, duration=0:00:00.389, duration_ms=389, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 13:51:55], mode=BUILD, duration=0:00:00.399, duration_ms=399, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 13:54:42], mode=BUILD, duration=0:00:02.309, duration_ms=2309, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 13:58:21], mode=BUILD, duration=0:00:02.207, duration_ms=2207, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 13:58:40], mode=BUILD, duration=0:00:02.226, duration_ms=2226, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 14:00:06], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 14:03:13], mode=BUILD, duration=0:00:00.359, duration_ms=359, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 14:03:30], mode=BUILD, duration=0:00:00.356, duration_ms=356, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 14:26:39], mode=BUILD, duration=0:00:00.406, duration_ms=406, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 14:40:58], mode=PLATFORM_GENERATION, duration=0:00:03.742, duration_ms=3742, data={name=top}
+timestamp=[2021-04-13 14:42:48], mode=BUILD, duration=0:00:00.356, duration_ms=356, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 16:57:10], mode=PLATFORM_GENERATION, duration=0:00:04.412, duration_ms=4412, data={name=top}
+timestamp=[2021-04-13 16:57:36], mode=PLATFORM_GENERATION, duration=0:00:03.746, duration_ms=3746, data={name=top}
+timestamp=[2021-04-13 16:58:26], mode=BUILD, duration=0:00:00.407, duration_ms=407, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 17:06:29], mode=BUILD, duration=0:00:00.364, duration_ms=364, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 17:06:47], mode=PLATFORM_GENERATION, duration=0:00:03.717, duration_ms=3717, data={name=top}
+timestamp=[2021-04-13 17:15:07], mode=PLATFORM_GENERATION, duration=0:00:03.724, duration_ms=3724, data={name=top}
+timestamp=[2021-04-13 17:19:30], mode=BUILD, duration=0:00:00.410, duration_ms=410, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 17:28:09], mode=PLATFORM_GENERATION, duration=0:00:05.737, duration_ms=5737, data={name=top}
+timestamp=[2021-04-13 17:28:23], mode=PLATFORM_GENERATION, duration=0:00:10.480, duration_ms=10480, data={name=top}
+timestamp=[2021-04-13 17:28:25], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-13 17:28:30], mode=BUILD, duration=0:00:00.346, duration_ms=346, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 15:10:54], mode=WORKBENCH_START, duration=0:00:09.816, duration_ms=9816, data={}
+timestamp=[2021-04-14 15:10:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.528, duration_ms=528, data={editors_count=4, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-14 15:10:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.070, duration_ms=70, data={}
+timestamp=[2021-04-14 15:11:03], mode=BUILD, duration=0:00:01.425, duration_ms=1425, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 15:13:59], mode=BUILD, duration=0:00:00.378, duration_ms=378, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 15:16:16], mode=BUILD, duration=0:00:00.384, duration_ms=384, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 15:17:22], mode=BUILD, duration=0:00:04.293, duration_ms=4293, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 15:17:38], mode=BUILD, duration=0:00:00.383, duration_ms=383, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 15:18:02], mode=BUILD, duration=0:00:00.370, duration_ms=370, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 15:44:36], mode=PLATFORM_GENERATION, duration=0:00:05.453, duration_ms=5453, data={name=top}
+timestamp=[2021-04-14 15:45:19], mode=BUILD, duration=0:00:00.430, duration_ms=430, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 16:03:19], mode=PLATFORM_GENERATION, duration=0:00:03.680, duration_ms=3680, data={name=top}
+timestamp=[2021-04-14 16:05:34], mode=BUILD, duration=0:00:03.071, duration_ms=3071, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 16:05:52], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 16:16:53], mode=BUILD, duration=0:00:02.728, duration_ms=2728, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 16:18:18], mode=PLATFORM_GENERATION, duration=0:00:03.686, duration_ms=3686, data={name=top}
+timestamp=[2021-04-14 16:18:19], mode=BUILD, duration=0:00:00.377, duration_ms=377, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 16:18:27], mode=BUILD, duration=0:00:00.362, duration_ms=362, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 16:36:03], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 17:10:54], mode=PLATFORM_GENERATION, duration=0:00:03.737, duration_ms=3737, data={name=top}
+timestamp=[2021-04-14 17:11:54], mode=BUILD, duration=0:00:00.363, duration_ms=363, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 17:12:10], mode=BUILD, duration=0:00:00.379, duration_ms=379, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 17:13:11], mode=PLATFORM_GENERATION, duration=0:00:05.996, duration_ms=5996, data={name=top}
+timestamp=[2021-04-14 17:13:11], mode=BUILD, duration=0:00:00.457, duration_ms=457, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-14 17:13:12], mode=BUILD, duration=0:00:00.333, duration_ms=333, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-14 17:13:26], mode=PLATFORM_GENERATION, duration=0:00:11.215, duration_ms=11215, data={name=top}
+timestamp=[2021-04-14 17:13:29], mode=BUILD, duration=0:00:02.809, duration_ms=2809, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 17:17:33], mode=PLATFORM_GENERATION, duration=0:00:05.540, duration_ms=5540, data={name=top}
+timestamp=[2021-04-14 17:18:06], mode=PLATFORM_GENERATION, duration=0:00:10.924, duration_ms=10924, data={name=top}
+timestamp=[2021-04-14 17:18:07], mode=BUILD, duration=0:00:00.347, duration_ms=347, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-14 17:18:08], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 10:07:31], mode=WORKBENCH_START, duration=0:00:09.389, duration_ms=9389, data={}
+timestamp=[2021-04-15 10:07:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.687, duration_ms=687, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-15 10:07:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.073, duration_ms=73, data={}
+timestamp=[2021-04-15 11:06:56], mode=PLATFORM_GENERATION, duration=0:00:05.444, duration_ms=5444, data={name=top}
+timestamp=[2021-04-15 11:08:58], mode=BUILD, duration=0:00:00.477, duration_ms=477, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:17:26], mode=BUILD, duration=0:00:00.392, duration_ms=392, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:20:31], mode=BUILD, duration=0:00:00.360, duration_ms=360, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:20:48], mode=BUILD, duration=0:00:00.361, duration_ms=361, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:22:43], mode=PLATFORM_GENERATION, duration=0:00:05.726, duration_ms=5726, data={name=top}
+timestamp=[2021-04-15 11:22:43], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 11:22:43], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 11:22:50], mode=PLATFORM_GENERATION, duration=0:00:03.779, duration_ms=3779, data={name=top}
+timestamp=[2021-04-15 11:22:51], mode=BUILD, duration=0:00:00.403, duration_ms=403, data={name=PR_Test_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 11:22:51], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=PR_Test_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 11:23:10], mode=PLATFORM_GENERATION, duration=0:00:10.306, duration_ms=10306, data={name=top}
+timestamp=[2021-04-15 11:23:13], mode=BUILD, duration=0:00:02.791, duration_ms=2791, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:24:27], mode=APP_CREATION, duration=0:00:01.824, duration_ms=1824, data={name=PR_Arbiter_01, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=top, application_type=application}
+timestamp=[2021-04-15 11:24:57], mode=BUILD, duration=0:00:00.699, duration_ms=699, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:25:28], mode=BUILD, duration=0:00:01.326, duration_ms=1326, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:44:23], mode=PLATFORM_GENERATION, duration=0:00:03.695, duration_ms=3695, data={name=top}
+timestamp=[2021-04-15 11:45:21], mode=BUILD, duration=0:00:01.027, duration_ms=1027, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:45:35], mode=PLATFORM_GENERATION, duration=0:00:05.543, duration_ms=5543, data={name=top}
+timestamp=[2021-04-15 11:45:35], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=PR_Arbiter_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 11:45:56], mode=PLATFORM_GENERATION, duration=0:00:10.268, duration_ms=10268, data={name=top}
+timestamp=[2021-04-15 11:46:43], mode=BUILD, duration=0:00:01.356, duration_ms=1356, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:46:44], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:47:28], mode=BUILD, duration=0:00:01.310, duration_ms=1310, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:48:10], mode=BUILD, duration=0:00:00.649, duration_ms=649, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:48:51], mode=BUILD, duration=0:00:01.325, duration_ms=1325, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 11:49:51], mode=PLATFORM_GENERATION, duration=0:00:03.673, duration_ms=3673, data={name=top}
+timestamp=[2021-04-15 11:50:05], mode=PLATFORM_GENERATION, duration=0:00:05.589, duration_ms=5589, data={name=top}
+timestamp=[2021-04-15 11:50:05], mode=BUILD, duration=0:00:00.456, duration_ms=456, data={name=PR_Arbiter_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 11:50:06], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 11:50:23], mode=PLATFORM_GENERATION, duration=0:00:10.149, duration_ms=10149, data={name=top}
+timestamp=[2021-04-15 11:50:24], mode=BUILD, duration=0:00:01.366, duration_ms=1366, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 13:14:36], mode=PLATFORM_GENERATION, duration=0:00:05.770, duration_ms=5770, data={name=top}
+timestamp=[2021-04-15 13:15:14], mode=PLATFORM_GENERATION, duration=0:00:04.193, duration_ms=4193, data={name=top}
+timestamp=[2021-04-15 13:15:14], mode=BUILD, duration=0:00:00.455, duration_ms=455, data={name=PR_Arbiter_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 13:15:14], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-15 13:15:37], mode=PLATFORM_GENERATION, duration=0:00:10.278, duration_ms=10278, data={name=top}
+timestamp=[2021-04-15 13:15:39], mode=BUILD, duration=0:00:01.365, duration_ms=1365, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 13:16:01], mode=BUILD, duration=0:00:00.755, duration_ms=755, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 13:16:21], mode=BUILD, duration=0:00:01.305, duration_ms=1305, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-15 13:18:18], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 11:22:48], mode=WORKBENCH_START, duration=0:00:10.275, duration_ms=10275, data={}
+timestamp=[2021-04-16 11:22:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.689, duration_ms=689, data={editors_count=2, platform_editors_count=0, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=PR_Arbiter_01,PR_Arbiter_01_system,PR_Test_01,PR_Test_01_system,RemoteSystemsTempFiles,top}
+timestamp=[2021-04-16 11:22:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.076, duration_ms=76, data={}
+timestamp=[2021-04-16 11:46:54], mode=BUILD, duration=0:00:02.498, duration_ms=2498, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 11:47:22], mode=PLATFORM_GENERATION, duration=0:00:06.348, duration_ms=6348, data={name=top}
+timestamp=[2021-04-16 11:47:22], mode=BUILD, duration=0:00:00.459, duration_ms=459, data={name=PR_Arbiter_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-16 11:47:22], mode=BUILD, duration=0:00:00.299, duration_ms=299, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-16 11:47:38], mode=PLATFORM_GENERATION, duration=0:00:10.952, duration_ms=10952, data={name=top}
+timestamp=[2021-04-16 11:47:40], mode=BUILD, duration=0:00:01.311, duration_ms=1311, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 11:47:41], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 11:47:58], mode=PLATFORM_GENERATION, duration=0:00:05.083, duration_ms=5083, data={name=top}
+timestamp=[2021-04-16 11:47:59], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=PR_Arbiter_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-16 11:47:59], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-16 11:48:23], mode=PLATFORM_GENERATION, duration=0:00:10.273, duration_ms=10273, data={name=top}
+timestamp=[2021-04-16 11:48:25], mode=BUILD, duration=0:00:01.317, duration_ms=1317, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 11:48:26], mode=BUILD, duration=0:00:00.309, duration_ms=309, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:17:52], mode=PLATFORM_GENERATION, duration=0:00:05.712, duration_ms=5712, data={name=top}
+timestamp=[2021-04-16 13:17:53], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=PR_Arbiter_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-16 13:17:53], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-16 13:18:58], mode=PLATFORM_GENERATION, duration=0:00:11.202, duration_ms=11202, data={name=top}
+timestamp=[2021-04-16 13:18:59], mode=BUILD, duration=0:00:01.471, duration_ms=1471, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:28:06], mode=PLATFORM_GENERATION, duration=0:00:05.622, duration_ms=5622, data={name=top}
+timestamp=[2021-04-16 13:28:32], mode=PLATFORM_GENERATION, duration=0:00:11.486, duration_ms=11486, data={name=top}
+timestamp=[2021-04-16 13:28:33], mode=BUILD, duration=0:00:00.859, duration_ms=859, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:33:59], mode=PLATFORM_GENERATION, duration=0:00:03.684, duration_ms=3684, data={name=top}
+timestamp=[2021-04-16 13:34:10], mode=PLATFORM_GENERATION, duration=0:00:05.531, duration_ms=5531, data={name=top}
+timestamp=[2021-04-16 13:34:10], mode=BUILD, duration=0:00:00.458, duration_ms=458, data={name=PR_Arbiter_01, configuration=Debug, clean_build=true}
+timestamp=[2021-04-16 13:34:10], mode=BUILD, duration=0:00:00.302, duration_ms=302, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=true}
+timestamp=[2021-04-16 13:34:25], mode=PLATFORM_GENERATION, duration=0:00:10.582, duration_ms=10582, data={name=top}
+timestamp=[2021-04-16 13:34:26], mode=BUILD, duration=0:00:01.312, duration_ms=1312, data={name=PR_Arbiter_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:34:28], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=PR_Arbiter_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:34:39], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:34:40], mode=BUILD, duration=0:00:00.294, duration_ms=294, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:34:54], mode=BUILD, duration=0:00:00.295, duration_ms=295, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:34:55], mode=BUILD, duration=0:00:00.299, duration_ms=299, data={name=PR_Test_01_system, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:35:18], mode=BUILD, duration=0:00:01.973, duration_ms=1973, data={name=PR_Test_01, configuration=Debug, clean_build=false}
+timestamp=[2021-04-16 13:36:06], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=PR_Test_01, configuration=Debug, clean_build=false}

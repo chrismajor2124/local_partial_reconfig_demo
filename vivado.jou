@@ -1,0 +1,102 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr  9 08:58:46 2021
+# Process ID: 10032
+# Current directory: D:/Xilinx/local_PR_test_01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16168 D:\Xilinx\local_PR_test_01\local_PR_test_01.xpr
+# Log file: D:/Xilinx/local_PR_test_01/vivado.log
+# Journal file: D:/Xilinx/local_PR_test_01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Xilinx/local_PR_test_01/local_PR_test_01.xpr
+update_compile_order -fileset sources_1
+open_project D:/Xilinx/radpc-lunar/Lunar_Board_FPGA/radpc_lunar.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+close_design
+open_run synth_1 -name synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Xilinx/radpc-lunar/Lunar_Board_FPGA/radpc_lunar.srcs/processing_tiles/tile/tile.bd]
+refresh_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Xilinx/radpc-lunar/Lunar_Board_FPGA/radpc_lunar.srcs/processing_tiles/tile/tile.bd]
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_design
+open_run synth_1 -name synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Xilinx/radpc-lunar/Lunar_Board_FPGA/radpc_lunar.srcs/processing_tiles/tile/tile.bd]
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+close_project
+open_bd_design {D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/mb_pr_01/mb_pr_01.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto}}  [get_bd_intf_pins axi_gpio_0/GPIO]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_1/o_clk_16MHz (16 MHz)} Clk_slave {/clk_wiz_1/o_clk_16MHz (16 MHz)} Clk_xbar {/clk_wiz_1/o_clk_16MHz (16 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_0/S_AXI} ddr_seg {Auto} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI]
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout -routing
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {4} CONFIG.C_GPIO2_WIDTH {1} CONFIG.C_IS_DUAL {1} CONFIG.C_ALL_OUTPUTS {1} CONFIG.C_ALL_OUTPUTS_2 {1}] [get_bd_cells axi_gpio_0]
+endgroup
+set_property location {1580 878} [get_bd_intf_ports gpio_rtl_0]
+set_property name o_sem_command [get_bd_intf_ports gpio_rtl_0]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto}}  [get_bd_intf_pins axi_gpio_0/GPIO2]
+set_property name o_sem_strobe [get_bd_intf_ports gpio_rtl_0]
+save_bd_design
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_1
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto}}  [get_bd_intf_pins axi_gpio_1/GPIO]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_1/o_clk_16MHz (16 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_1/o_clk_16MHz (16 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_1/S_AXI} ddr_seg {Auto} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_1/S_AXI]
+endgroup
+set_property location {4 1364 999} [get_bd_cells axi_gpio_1]
+regenerate_bd_layout -routing
+regenerate_bd_layout
+set_property location {4 1412 997} [get_bd_cells axi_gpio_1]
+set_property location {4 1419 1008} [get_bd_cells axi_gpio_1]
+set_property location {4 1403 579} [get_bd_cells axi_uartlite_0]
+regenerate_bd_layout
+startgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_1]
+endgroup
+set_property name i_sem_status [get_bd_intf_ports gpio_rtl_0]
+save_bd_design
+validate_bd_design
+generate_target all [get_files  D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/mb_pr_01/mb_pr_01.bd]
+catch { config_ip_cache -export [get_ips -all mb_pr_01_dlmb_bram_if_cntlr_0] }
+catch { config_ip_cache -export [get_ips -all mb_pr_01_xbar_0] }
+catch { config_ip_cache -export [get_ips -all mb_pr_01_axi_gpio_0_0] }
+catch { config_ip_cache -export [get_ips -all mb_pr_01_axi_gpio_1_0] }
+export_ip_user_files -of_objects [get_files D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/mb_pr_01/mb_pr_01.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/mb_pr_01/mb_pr_01.bd]
+launch_runs mb_pr_01_xbar_0_synth_1 mb_pr_01_dlmb_bram_if_cntlr_0_synth_1 mb_pr_01_axi_gpio_0_0_synth_1 mb_pr_01_axi_gpio_1_0_synth_1 -jobs 16
+wait_on_run mb_pr_01_xbar_0_synth_1
+wait_on_run mb_pr_01_dlmb_bram_if_cntlr_0_synth_1
+wait_on_run mb_pr_01_axi_gpio_0_0_synth_1
+wait_on_run mb_pr_01_axi_gpio_1_0_synth_1
+export_simulation -of_objects [get_files D:/Xilinx/local_PR_test_01/local_PR_test_01.srcs/mb_pr_01/mb_pr_01.bd] -directory D:/Xilinx/local_PR_test_01/local_PR_test_01.ip_user_files/sim_scripts -ip_user_files_dir D:/Xilinx/local_PR_test_01/local_PR_test_01.ip_user_files -ipstatic_source_dir D:/Xilinx/local_PR_test_01/local_PR_test_01.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Xilinx/local_PR_test_01/local_PR_test_01.cache/compile_simlib/modelsim} {questa=D:/Xilinx/local_PR_test_01/local_PR_test_01.cache/compile_simlib/questa} {riviera=D:/Xilinx/local_PR_test_01/local_PR_test_01.cache/compile_simlib/riviera} {activehdl=D:/Xilinx/local_PR_test_01/local_PR_test_01.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Xilinx/local_PR_test_01/top.xsa
+write_hw_platform -fixed -include_bit -force -file D:/Xilinx/local_PR_test_01/top.xsa
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Xilinx/local_PR_test_01/top.xsa
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Xilinx/local_PR_test_01/top.xsa

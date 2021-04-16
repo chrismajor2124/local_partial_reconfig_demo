@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ipshared/ec67/hdl" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_lmb_bram_0/sim/mb_pr_01_lmb_bram_0.v" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_xbar_0/sim/mb_pr_01_xbar_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

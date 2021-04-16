@@ -1,0 +1,41 @@
+13:34:25 **** Build of configuration Debug for project PR_Arbiter_01 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/sw/top/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:243:42: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  243 |     Status = XSpi_Transfer( &SPI_Device, SPI_send, NULL, 10 );
+      |                                          ^~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/main.c:26:
+D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/sw/top/standalone_microblaze_0/bspinclude/include/xspi.h:810:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  810 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/main.c: In function 'initIp':
+../src/main.c:313:11: warning: 'UART_Config' is used uninitialized in this function [-Wuninitialized]
+  313 |  status = init_UART( UART_Config );
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:333:11: warning: 'GPIO_0_Config' is used uninitialized in this function [-Wuninitialized]
+  333 |  status = init_GPIO( GPIO_0_Config, GPIO_1_Config );
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:333:11: warning: 'GPIO_1_Config' is used uninitialized in this function [-Wuninitialized]
+../src/main.c:354:11: warning: 'ICAP_Config' is used uninitialized in this function [-Wuninitialized]
+  354 |  status = init_ICAP( ICAP_Config );
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:375:11: warning: 'SPI_Config' is used uninitialized in this function [-Wuninitialized]
+  375 |  status = init_SPI( SPI_Config );
+      |           ^~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: PR_Arbiter_01.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/sw/top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PR_Arbiter_01.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2020.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/9.2.0/real-ld.exe: PR_Arbiter_01.elf section `.text' will not fit in region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem'
+c:/xilinx/vitis/2020.2/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/bin/microblaze-xilinx-elf/../../libexec/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/9.2.0/real-ld.exe: region `microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem' overflowed by 8552 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: PR_Arbiter_01.elf] Error 1
+
+13:34:26 Build Finished (took 1s.300ms)
+

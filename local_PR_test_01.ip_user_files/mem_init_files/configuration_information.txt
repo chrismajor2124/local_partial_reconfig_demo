@@ -1,0 +1,109 @@
+Core Configuration Properties
+=============================
+CONFIG.HAS_AXI_LITE_IF                           0
+CONFIG.RESET_ACTIVE_LEVEL                        0
+CONFIG.CP_FIFO_DEPTH                             32
+CONFIG.CP_FIFO_TYPE                              lutram
+CONFIG.CP_ARBITRATION_PROTOCOL                   1
+CONFIG.CP_COMPRESSION                            1
+CONFIG.CP_FAMILY                                 7series
+CONFIG.CDC_STAGES                                6
+CONFIG.VS.CNTR_0.START_IN_SHUTDOWN               0
+CONFIG.VS.CNTR_0.NUM_TRIGGERS_ALLOCATED          2
+CONFIG.VS.CNTR_0.NUM_RMS_ALLOCATED               2
+CONFIG.VS.CNTR_0.NUM_HW_TRIGGERS                 2
+CONFIG.VS.CNTR_0.SHUTDOWN_ON_ERROR               1
+CONFIG.VS.CNTR_0.HAS_AXIS_STATUS                 0
+CONFIG.VS.CNTR_0.HAS_AXIS_CONTROL                0
+CONFIG.VS.CNTR_0.HAS_POR_RM                      0
+CONFIG.VS.CNTR_0.SKIP_RM_STARTUP_AFTER_RESET     0
+CONFIG.VS.CNTR_0.TRIGGER0_TO_RM                  CNTR_UP
+CONFIG.VS.CNTR_0.TRIGGER1_TO_RM                  CNTR_DOWN
+CONFIG.VS.CNTR_0.RM.CNTR_UP.SHUTDOWN_REQUIRED    no
+CONFIG.VS.CNTR_0.RM.CNTR_UP.STARTUP_REQUIRED     no
+CONFIG.VS.CNTR_0.RM.CNTR_UP.RESET_REQUIRED       no
+CONFIG.VS.CNTR_0.RM.CNTR_UP.RESET_DURATION       1
+CONFIG.VS.CNTR_0.RM.CNTR_UP.BS.0.ADDRESS         0
+CONFIG.VS.CNTR_0.RM.CNTR_UP.BS.0.SIZE            0
+CONFIG.VS.CNTR_0.RM.CNTR_UP.BS.0.CLEAR           0
+CONFIG.VS.CNTR_0.RM.CNTR_DOWN.SHUTDOWN_REQUIRED  no
+CONFIG.VS.CNTR_0.RM.CNTR_DOWN.STARTUP_REQUIRED   no
+CONFIG.VS.CNTR_0.RM.CNTR_DOWN.RESET_REQUIRED     no
+CONFIG.VS.CNTR_0.RM.CNTR_DOWN.RESET_DURATION     1
+CONFIG.VS.CNTR_0.RM.CNTR_DOWN.BS.0.ADDRESS       0
+CONFIG.VS.CNTR_0.RM.CNTR_DOWN.BS.0.SIZE          0
+CONFIG.VS.CNTR_0.RM.CNTR_DOWN.BS.0.CLEAR         0
+
+
+dfx_controller_v1_0::set_property -dict [list \
+                               CONFIG.HAS_AXI_LITE_IF                           0 \
+                               CONFIG.RESET_ACTIVE_LEVEL                        0 \
+                               CONFIG.CP_FIFO_DEPTH                             32 \
+                               CONFIG.CP_FIFO_TYPE                              lutram \
+                               CONFIG.CP_ARBITRATION_PROTOCOL                   1 \
+                               CONFIG.CP_COMPRESSION                            1 \
+                               CONFIG.CP_FAMILY                                 7series \
+                               CONFIG.CDC_STAGES                                6 \
+                               CONFIG.VS.CNTR_0.START_IN_SHUTDOWN               0 \
+                               CONFIG.VS.CNTR_0.NUM_TRIGGERS_ALLOCATED          2 \
+                               CONFIG.VS.CNTR_0.NUM_RMS_ALLOCATED               2 \
+                               CONFIG.VS.CNTR_0.NUM_HW_TRIGGERS                 2 \
+                               CONFIG.VS.CNTR_0.SHUTDOWN_ON_ERROR               1 \
+                               CONFIG.VS.CNTR_0.HAS_AXIS_STATUS                 0 \
+                               CONFIG.VS.CNTR_0.HAS_AXIS_CONTROL                0 \
+                               CONFIG.VS.CNTR_0.HAS_POR_RM                      0 \
+                               CONFIG.VS.CNTR_0.SKIP_RM_STARTUP_AFTER_RESET     0 \
+                               CONFIG.VS.CNTR_0.TRIGGER0_TO_RM                  CNTR_UP \
+                               CONFIG.VS.CNTR_0.TRIGGER1_TO_RM                  CNTR_DOWN \
+                               CONFIG.VS.CNTR_0.RM.CNTR_UP.SHUTDOWN_REQUIRED    no \
+                               CONFIG.VS.CNTR_0.RM.CNTR_UP.STARTUP_REQUIRED     no \
+                               CONFIG.VS.CNTR_0.RM.CNTR_UP.RESET_REQUIRED       no \
+                               CONFIG.VS.CNTR_0.RM.CNTR_UP.RESET_DURATION       1 \
+                               CONFIG.VS.CNTR_0.RM.CNTR_UP.BS.0.ADDRESS         0 \
+                               CONFIG.VS.CNTR_0.RM.CNTR_UP.BS.0.SIZE            0 \
+                               CONFIG.VS.CNTR_0.RM.CNTR_UP.BS.0.CLEAR           0 \
+                               CONFIG.VS.CNTR_0.RM.CNTR_DOWN.SHUTDOWN_REQUIRED  no \
+                               CONFIG.VS.CNTR_0.RM.CNTR_DOWN.STARTUP_REQUIRED   no \
+                               CONFIG.VS.CNTR_0.RM.CNTR_DOWN.RESET_REQUIRED     no \
+                               CONFIG.VS.CNTR_0.RM.CNTR_DOWN.RESET_DURATION     1 \
+                               CONFIG.VS.CNTR_0.RM.CNTR_DOWN.BS.0.ADDRESS       0 \
+                               CONFIG.VS.CNTR_0.RM.CNTR_DOWN.BS.0.SIZE          0 \
+                               CONFIG.VS.CNTR_0.RM.CNTR_DOWN.BS.0.CLEAR         0 \
+                             ] [get_ips dfx_controller_0]
+
+ID Mapping
+=============================
+Virtual Socket Manager CNTR_0 is assigned ID 0
+  Reconfigurable Module CNTR_UP is assigned ID 0
+  Reconfigurable Module CNTR_DOWN is assigned ID 1
+
+
+Address Structure
+=============================
+The addresses are structured as follows:
+  There is no VSM Select slice as there's only one VSM
+  address[ 6: 5]  : Selects the Register Bank
+  address[ 4: 2]  : Selects the Register within the bank
+
+Address Map
+=============================
+| Virtual Socket Manager | Register     | Address |
++------------------------+--------------+---------+
+| CNTR_0                 | STATUS       | 0X00000 |
+| CNTR_0                 | CONTROL      | 0X00000 |
+| CNTR_0                 | SW_TRIGGER   | 0X00004 |
+| CNTR_0                 | TRIGGER0     | 0X00020 |
+| CNTR_0                 | TRIGGER1     | 0X00024 |
+| CNTR_0                 | RM_BS_INDEX0 | 0X00040 |
+| CNTR_0                 | RM_CONTROL0  | 0X00044 |
+| CNTR_0                 | RM_BS_INDEX1 | 0X00048 |
+| CNTR_0                 | RM_CONTROL1  | 0X0004C |
+| CNTR_0                 | BS_ID0       | 0X00060 |
+| CNTR_0                 | BS_ADDRESS0  | 0X00064 |
+| CNTR_0                 | BS_SIZE0     | 0X00068 |
+| CNTR_0                 | BS_ID1       | 0X00070 |
+| CNTR_0                 | BS_ADDRESS1  | 0X00074 |
+| CNTR_0                 | BS_SIZE1     | 0X00078 |
+
+
+

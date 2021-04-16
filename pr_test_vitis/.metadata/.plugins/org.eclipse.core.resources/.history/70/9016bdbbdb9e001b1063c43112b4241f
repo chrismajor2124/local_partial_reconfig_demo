@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="PR_Arbiter_01" location="D:/Xilinx/local_PR_test_01/pr_test_vitis/PR_Arbiter_01" platform="D:/Xilinx/local_PR_test_01/pr_test_vitis/top/export/top/top.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="PR_Arbiter_01_system" sysConfig="top" runtime="C/C++" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="a2dd14f99bb134105c42a936b7bce258">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.560637845">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1590838319" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

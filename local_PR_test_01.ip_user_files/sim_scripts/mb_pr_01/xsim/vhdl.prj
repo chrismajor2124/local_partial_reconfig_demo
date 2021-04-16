@@ -1,0 +1,16 @@
+vhdl xil_defaultlib  \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_hwicap_0_0/sim/mb_pr_01_axi_hwicap_0_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_microblaze_0_0/sim/mb_pr_01_microblaze_0_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_uartlite_0_0/sim/mb_pr_01_axi_uartlite_0_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_mdm_0_0/sim/mb_pr_01_mdm_0_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_dlmb_v10_0/sim/mb_pr_01_dlmb_v10_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_ilmb_v10_0/sim/mb_pr_01_ilmb_v10_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_dlmb_bram_if_cntlr_0/sim/mb_pr_01_dlmb_bram_if_cntlr_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_ilmb_bram_if_cntlr_0/sim/mb_pr_01_ilmb_bram_if_cntlr_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_rst_clk_wiz_1_100M_0/sim/mb_pr_01_rst_clk_wiz_1_100M_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_quad_spi_0_0/sim/mb_pr_01_axi_quad_spi_0_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_gpio_0_0/sim/mb_pr_01_axi_gpio_0_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/ip/mb_pr_01_axi_gpio_1_0/sim/mb_pr_01_axi_gpio_1_0.vhd" \
+"../../../../../../local_PR_test_01.gen/sources_1/bd/mb_pr_01/sim/mb_pr_01.vhd" \
+
+nosort

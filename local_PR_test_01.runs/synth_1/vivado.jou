@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 16 13:20:19 2021
+# Process ID: 38528
+# Current directory: D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1/top.vds
+# Journal file: D:/Xilinx/local_PR_test_01/local_PR_test_01.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
